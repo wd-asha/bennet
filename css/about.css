@@ -1,0 +1,183 @@
+.about-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.contacts-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-left {
+    width: 51%;
+    background-color: #264e70;
+    overflow: hidden;
+    position: relative;
+}
+
+.contacts-left {
+    width: 50%;
+    height: 100%;
+    background-color: #0d927d;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-left-bottom {
+    position: fixed;
+    top: 66.66%;
+    left: 0;
+    height: 33.33%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 3.33rem;
+    width: 50%;
+}
+
+.about-left-title,
+.about-left-text {
+    width: 50%;
+}
+
+.about-left-title h3 {
+    font-size: 4rem;
+    font-family: "Oswald-Light", sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.about-left-text p {
+    font-size: 1.5rem;
+    font-family: "Oswald-Light", sans-serif;
+    color: white;
+    display: inline-block;
+}
+
+.about-left-text img {
+    width: 1.5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    transform: translateY(.25rem);
+}
+
+.about-right {
+    width: 50%;
+    background-color: rgb(246,194,206);
+    padding: 200px 2rem 0 3.33rem;
+    position: relative;
+}
+
+.contacts-right {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(246,194,206);
+    padding: 200px 2rem 0 3.33rem;
+    position: relative;
+}
+
+.content-right-title h3 {
+    font-size: 3rem;
+    font-family: "Oswald-Light", sans-serif;
+    color: rgb(45,50,91);
+    font-weight: 300;
+    border-bottom: 1px solid rgb(45,50,91);
+    padding-bottom: 3rem;
+}
+
+.content-right-subtitle h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Oswald-Light", sans-serif;
+    color: rgb(45,50,91);
+    padding: 3rem 0 2rem 0;
+}
+
+.contacts-right-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-right-text-item {
+    width: 30%;
+}
+
+.contacts-right-text-item p {
+    font-size: 1.3rem;
+    font-family: "Oswald-Light", sans-serif;
+    color: rgb(45,50,91);
+    margin-bottom: .5rem;
+}
+
+.contacts-right-text-item p:first-child {
+    font-weight: 600;
+}
+
+
+.content-right-text p {
+    font-size: 1.2rem;
+    font-family: "Oswald-Light", sans-serif;
+    color: rgb(45,50,91);
+    margin-bottom: 1rem;
+}
+
+.content-right-text img {
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.about-right .link-panel,
+.contacts-right .link-panel {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 3.33rem 0 3rem 0;
+}
+
+.collection {
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .05rem;
+    display: inline-block;
+    background-color: #0d927d;
+    z-index: 30;
+    overflow: hidden;
+    position: relative;
+}
+
+.collection-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(45,50,91);
+    transform: translateY(-100%);
+    transition: .5s;
+    z-index: -1;
+}
+
+.collection a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.collection:hover .collection-overlay {
+    transform: translateY(0);
+}

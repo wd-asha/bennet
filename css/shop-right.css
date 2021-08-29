@@ -1,0 +1,380 @@
+.content-box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-right {
+    width: 50%;
+    background-color: rgb(246,194,206);
+    padding-top: 300px;
+    position: relative;
+}
+
+.content-right-img {
+    position: absolute;
+    top: 0;
+    right: 12rem;
+    width: 607px;
+    height: 175px;
+}
+
+.tea-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+#tea1 {
+    display: block;
+}
+
+.center-box-shop {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.top-row-shop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12rem;
+}
+
+.names-box {
+    position: relative;
+    overflow: hidden;
+    padding: .66rem 4rem;
+    border: 1px solid #2d325b;;
+    transform: translateY(1px);
+}
+
+.names-teas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+    background-color: #f9c5d1;
+}
+
+.name-tea {
+    width: 100%;
+    height: 16.666666%;
+    text-align: center;
+}
+
+.name-tea p {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-family: "Oswald-Light", sans-serif;
+    font-weight: 600;
+    color: rgb(45,50,91);
+}
+
+.middle-row-shop {
+    border: 1px solid #2d325b;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titles-box {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.middle-row-shop h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 100%;
+    font-family: "Oswald-Bold", sans-serif;
+    font-weight: 600;
+    color: rgb(45,50,91);
+}
+
+.middle-row-shop h2:nth-child(1) {
+    padding-top: .5rem;
+}
+
+.middle-row-shop h2:nth-child(2) {
+    padding-bottom: .5rem;
+}
+
+.titles-teas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+    background-color: #f9c5d1;
+}
+
+.title-tea {
+    width: 100%;
+    height: 16.666666%;
+}
+
+.bottom-row-shop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Oswald-Light", sans-serif;
+}
+
+.bottom-row-left-shop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.bottom-row-left-shop-1 {
+    width: 50%;
+    padding: 1rem 1.5rem;
+    transform: translateY(-1px);
+    text-align: center;
+    border: 1px solid #2d325b;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom-row-left-shop-1 p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.desc-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    transition: 1s;
+}
+
+.desc {
+    width: 100%;
+    height: 16.666666%;
+}
+
+.desc p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: rgb(45,50,91);
+    padding: 1rem 1.5rem;
+}
+
+.taste-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    transition: 1s;
+}
+
+.taste {
+    width: 100%;
+    height: 16.666666%;
+    padding: 1rem;
+}
+
+.aroma-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    transition: 1s;
+}
+
+.aroma {
+    width: 100%;
+    height: 16.666666%;
+    padding: 1rem;
+}
+
+.backs-box {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    transition: 1s;
+    position: absolute;
+}
+
+.backs {
+    width: 100%;
+    height: 16.666666%;
+    padding: 1rem 3.33rem;
+}
+
+.bottom-row-left-shop-2,
+.bottom-row-left-shop-3 {
+    width: 20%;
+    padding: 1rem;
+    border: 1px solid #2d325b;
+    transform: translate(-1px, -1px);
+    text-align: center;
+    color: rgb(45,50,91);
+    overflow: hidden;
+}
+
+.bottom-row-left-shop-3 {
+    transform: translate(-2px, -1px);
+}
+
+.bottom-row-left-shop-4 {
+    width: 10%;
+    padding: .25rem;
+    border: 1px solid #2d325b;
+    transform: translate(-3px, -1px);
+    text-align: center;
+}
+
+.bottom-row-left-shop-2 p,
+.bottom-row-left-shop-3 p,
+.bottom-row-left-shop-4 p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-bottom: .25rem;
+}
+
+.bottom-row-left-shop-2 p:first-child,
+.bottom-row-left-shop-3 p:first-child,
+.bottom-row-left-shop-4 p:first-child {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: .66rem;
+    color: rgb(45,50,91);
+}
+
+.bottom-row-left-shop-4 p:first-child {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: .66rem;
+    color: rgb(45,50,91);
+}
+
+.price-panel {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    border-top: 1px solid rgba(0, 0, 0, .66);
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-panel .price {
+    width: 50%;
+    text-align: left;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.price-panel .price p {
+    height: 8rem;
+    line-height: 6rem;
+    font-size: 2rem;
+    color: rgb(45,50,91);
+    font-family: "Oswald-Light", sans-serif;
+    /*position: absolute;
+    top: 50%;
+    left: 3.33rem;
+    transform: translateY(-50%);*/
+    font-weight: 600;
+}
+
+.price-panel .cart-add {
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+
+.cart-add-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(45,50,91);
+    transform: translateY(-100%);
+    transition: .5s;
+    z-index: -1;
+}
+
+.cart-add-link {
+    position: absolute;
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .05rem;
+    display: inline-block;
+    background-color: #0d927d;
+    z-index: 30;
+    overflow: hidden;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3.33rem;
+}
+
+.cart-add-link a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.cart-add-link:hover .cart-add-overlay {
+    transform: translateY(0);
+}

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+    url('../fonts/ROboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('../fonts/Cuprum/Cuprum.ttf');
+    url('../fonts/Cuprum/Cuprum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('../fonts/Oswald/Oswald-Bold.ttf');
+    url('../fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');
+url('../fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url('../fonts/Oswald/Oswald-Light.ttf');
+url('../fonts/Oswald/Oswald-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
